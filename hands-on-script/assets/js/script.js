@@ -11,6 +11,7 @@ osc(60, 0.1, 0.5)
         0.1)
     .saturate(() => Math.sin(time))
     .modulateRepeat(
-        noise(5, 0.1)
+        noise(
+            5, 0.5)
     )
     .out(o0)
